@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 1250px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 380px;
+  height: 450px;
+  border: 1px solid #000;
+}
+
+.card_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.card_title {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card_text {
+  font-family: sans-serif;
+  color: grey;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card_btn {
+  display: block;
+  padding: 10px 50px;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* -----------------INSTAGRAM------------------------- */
+
+.instagram {
+  background-color: crimson;
+}
+
+.instagram_title {
+  color: #fff;
+}
+
+.instagram_text {
+  color: #fff;
+}
+
+.instagram_btn {
+  background-color: #fff;
+  color:crimson;
+}
